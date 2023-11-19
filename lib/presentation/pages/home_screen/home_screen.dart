@@ -14,6 +14,8 @@ class HomeScreen extends StatefulWidget {
 
   final String title;
 
+  static const path = '/home-screen';
+
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }

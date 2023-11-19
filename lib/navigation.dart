@@ -5,6 +5,8 @@ import 'package:flutter_test_app/presentation/pages/test_animation_screen/test_a
 class Navigation extends StatefulWidget {
   const Navigation({super.key});
 
+  static const path = '/';
+
   @override
   State<Navigation> createState() => _NavigationState();
 }
