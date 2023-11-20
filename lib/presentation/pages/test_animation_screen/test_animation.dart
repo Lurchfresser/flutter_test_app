@@ -9,10 +9,12 @@ class TestAnimation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: ElevatedButton(
-          onPressed: ()=>Routemaster.of(context).push(AnimatedListScreen.path),
-          child: const Text("Go to animated List"))
+    return Scaffold(
+      body: Center(
+          child: ElevatedButton(
+            onPressed: ()=>Routemaster.of(context).push(AnimatedListScreen.path),
+            child: const Text("Go to animated List"))
+      ),
     );
   }
 }
